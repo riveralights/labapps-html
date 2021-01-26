@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation */
+nav {
+  a.navbar-brand {
+    font-weight: 600;
+    color: #245be7 !important;
+    font-size: 26px;
+  }
+
+  .nav-link {
+    color: #c7c7c7;
+  }
+
+  .btn.btn-login {
+    margin-left: 250px !important;
+    background: #56ccf2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2f80ed, #56ccf2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2f80ed, #56ccf2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    transition: all 0.3s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+/* Hero Section */
+section.hero {
+  margin-top: 65px;
+  margin-bottom: 65px;
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+    color: #c7c7c7;
+    margin-bottom: 20px;
+  }
+
+  .btn-hero-cta {
+    background-color: #245be7;
+    color: #fff;
+
+    &:hover {
+      background-color: #264492;
+    }
+  }
+}
+
+/* About Section */
+section.about {
+  margin-top: 150px;
+  margin-bottom: 100px;
+
+  .about-image {
+    width: 100%;
+  }
+
+  .about-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #585858;
+  }
+
+  .about-text {
+    font-size: 18px;
+    color: #585858;
+    line-height: 2.5;
+  }
+}
+
+/* Facilities Section */
+section.facilities {
+  margin-bottom: 100px;
+
+  .facilities-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: #585858;
+    font-size: 20px;
+  }
+
+  .facilities-description {
+    color: #585858;
+    font-size: 14px;
+    line-height: 2.5;
+  }
+}
+
+/* Testimonial */
+section.testimonial {
+  margin-bottom: 100px;
+
+  .testimonial-heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #585858;
+  }
+
+  .quote-mark {
+    width: 33px;
+    margin-bottom: 10px;
+  }
+
+  .testimonial-content {
+    font-size: 16px;
+    line-height: 2.1;
+  }
+
+  .avatar {
+    width: 40px;
+  }
+}
+
+.card-section {
+  box-shadow: 0 0 77px -29px rgb(32, 32, 32);
+  border-radius: 20px;
+  padding: 45px;
+  overflow: hidden;
+}
+
+/* Footer */
+.footer {
+  background-color: #245be7;
+  padding: 72px 0;
+
+  .footer-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .footer-list-item {
+    line-height: 2;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 24px;
+    color: #fff;
+  }
+}
+
+/* Credit Section */
+section.credit {
+  background-color: #264492;
+  color: #fff;
+}
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+  nav {
+    .btn.btn-login {
+      margin-top: 15px;
+      margin-left: 0px !important;
+      padding: 14px 0 !important;
+    }
+  }
+}
